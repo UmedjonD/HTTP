@@ -26,7 +26,6 @@ public class Main {
                 String line;
                 while ((line = in.readLine()) != null) {
                     ht.append(line);
-                    ht.append("\n");
                 }
                 System.out.println(ht.toString());
             }else {
